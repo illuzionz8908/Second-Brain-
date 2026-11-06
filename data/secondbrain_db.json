@@ -1,0 +1,120 @@
+{
+  "users": [
+    {
+      "_id": "user_default_secondbrain_1",
+      "username": "Sonu",
+      "email": "kumar.sonu.35798@gmail.com",
+      "password": "password123",
+      "bio": "Software engineer building modern knowledge architectures, AI systems, and digital brains.",
+      "createdAt": "2026-11-06T22:02:54.895Z"
+    }
+  ],
+  "contents": [
+    {
+      "title": "Video",
+      "link": "https://www.youtube.com/watch?v=g_YHkAB76pM",
+      "type": "youtube",
+      "notes": "",
+      "userId": "user_default_secondbrain_1",
+      "_id": "content_05408cfb-8",
+      "createdAt": "2026-11-06T22:07:15.552Z"
+    },
+    {
+      "title": "second brain",
+      "type": "document",
+      "filePath": "/uploads/11fc7397-b79e-484c-9d73-d9c5ee049029.pdf",
+      "fileName": "second brain.pdf",
+      "fileSize": 4307187,
+      "mimeType": "application/pdf",
+      "cloudUrl": "https://cdn.secondbrain.storage/brains/user_default_secondbrain_1/1794002777401-second_brain.pdf",
+      "cloudStorageKey": "brains/user_default_secondbrain_1/1794002777401-second_brain.pdf",
+      "cloudProvider": "Second Brain Cloud CDN",
+      "notes": "",
+      "extractedText": "Document: second brain.pdf. Cloud Storage Key: brains/user_default_secondbrain_1/1794002777401-second_brain.pdf",
+      "userId": "user_default_secondbrain_1",
+      "_id": "content_dc2a9fcc-7",
+      "createdAt": "2026-11-06T22:06:17.412Z"
+    },
+    {
+      "_id": "doc_seed_1",
+      "title": "Neural Architecture and Agentic Workflows Spec (2026)",
+      "type": "document",
+      "fileName": "agentic_architectures_spec.pdf",
+      "fileSize": 420800,
+      "mimeType": "application/pdf",
+      "cloudUrl": "https://cdn.secondbrain.storage/brains/user_default_secondbrain_1/agentic_architectures_spec.pdf",
+      "cloudStorageKey": "brains/user_default_secondbrain_1/agentic_architectures_spec.pdf",
+      "cloudProvider": "Second Brain Cloud CDN",
+      "notes": "Essential reading on multi-agent collaboration, memory retention layers, and verification loops.",
+      "extractedText": "Title: Autonomous Agent Architecture & Reasoning Verification (2026)\nAbstract: Modern digital knowledge engines require hybrid indexing: combining vector similarity search with structured knowledge graphs and multi-modal contextual reasoning.\nKey Findings:\n1. Grounding and Verification: Agentic architectures that integrate continuous unit test and simulation checkpoints reduce hallucinations by 84%.\n2. Epistemic Memory: Long-term memory stores must distinguish between volatile working context and immutable reference documents.\n3. Sharable Knowledge Graphs: Collaborative human-agent reasoning is accelerated when external stakeholders can query the exact state of an agent's knowledge base via deterministic share hashes.\nConclusion: Building a Second Brain requires seamless document indexing, zero-latency cloud object storage, and bidirectional chat interfaces.",
+      "userId": "user_default_secondbrain_1",
+      "createdAt": "2026-11-05T22:02:54.895Z"
+    },
+    {
+      "_id": "doc_seed_2",
+      "title": "Distributed Cloud Storage & CDN Optimization Guide",
+      "type": "document",
+      "fileName": "cloud_storage_best_practices.txt",
+      "fileSize": 185400,
+      "mimeType": "text/plain",
+      "cloudUrl": "https://cdn.secondbrain.storage/brains/user_default_secondbrain_1/cloud_storage_best_practices.txt",
+      "cloudStorageKey": "brains/user_default_secondbrain_1/cloud_storage_best_practices.txt",
+      "cloudProvider": "Second Brain Cloud CDN",
+      "notes": "Guidelines on content addressing, immutable object keys, and edge-caching binary assets.",
+      "extractedText": "Cloud Storage Engineering Rules:\n1. Content Immutability: Every uploaded asset is assigned a unique UUID and SHA256 cryptographic digest.\n2. Direct-to-Cloud Stream Pipelines: Large files must bypass monolithic memory buffers using streaming chunk uploads.\n3. Edge CDN Delivery: Latency to end-users is minimized by distributing read replicas across edge point-of-presence servers.\n4. Access Control: Public brain links generate read-only signed URLs without granting administrative write permissions.",
+      "userId": "user_default_secondbrain_1",
+      "createdAt": "2026-11-04T22:02:54.895Z"
+    },
+    {
+      "_id": "yt_seed_1",
+      "title": "Andrej Karpathy - Deep Dive into LLMs and Synthetic Data",
+      "type": "youtube",
+      "link": "https://www.youtube.com/watch?v=zjkBMFhNj_g",
+      "notes": "Complete breakdown of tokenization, pre-training, instruction tuning, and test-time compute.",
+      "userId": "user_default_secondbrain_1",
+      "createdAt": "2026-11-03T22:02:54.895Z"
+    },
+    {
+      "_id": "tw_seed_1",
+      "title": "System 2 Thinking and Autonomous World Models - Yann LeCun",
+      "type": "twitter",
+      "link": "https://x.com/ylecun/status/17823901928374",
+      "notes": "Insights on hierarchical planning, non-generative representation models, and self-supervised learning.",
+      "userId": "user_default_secondbrain_1",
+      "createdAt": "2026-11-02T22:02:54.895Z"
+    },
+    {
+      "_id": "li_seed_1",
+      "title": "Scaling High-Performance Engineering Teams",
+      "type": "linkedin",
+      "link": "https://www.linkedin.com/pulse/scaling-engineering-teams-system-design",
+      "notes": "Architectural lessons from scaling cloud systems to 10M+ daily active sessions.",
+      "userId": "user_default_secondbrain_1",
+      "createdAt": "2026-11-01T22:02:54.895Z"
+    },
+    {
+      "_id": "art_seed_1",
+      "title": "Paul Graham - How to Think for Yourself",
+      "type": "article",
+      "link": "https://paulgraham.com/think.html",
+      "notes": "Why independent thinking is rare, how conventional wisdom traps organizations, and cultivating curiosity.",
+      "userId": "user_default_secondbrain_1",
+      "createdAt": "2026-10-31T22:02:54.895Z"
+    }
+  ],
+  "links": [
+    {
+      "_id": "link_seed_1",
+      "hash": "brain-sonu-public",
+      "userId": "user_default_secondbrain_1",
+      "createdAt": "2026-11-06T22:02:54.895Z",
+      "isPublic": true
+    }
+  ],
+  "cloudSettings": {
+    "provider": "Second Brain Cloud CDN",
+    "bucketName": "secondbrain-prod-vault-east",
+    "region": "global-edge-anycast",
+    "cdnDomain": "https://cdn.secondbrain.storage"
+  }
+}

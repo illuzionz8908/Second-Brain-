@@ -1,0 +1,6 @@
+{
+  "name": "Second Brain - Digital Knowledge Base & AI Chat",
+  "description": "Store and manage digital content across platforms, share your public brain link, upload documents to cloud storage, and chat with your PDFs using Gemini AI.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

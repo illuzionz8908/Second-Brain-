@@ -1,0 +1,53 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  --color-purple-300: #e0e7fe;
+  --color-purple-500: #3e38a7;
+  --color-purple-600: #5046e4;
+
+  --color-gray-100: #eeeeef;
+  --color-gray-200: #e6e9ed;
+  --color-gray-600: #7164c0;
+}
+
+:root {
+  --brand-purple-300: #e0e7fe;
+  --brand-purple-500: #3e38a7;
+  --brand-purple-600: #5046e4;
+  --brand-gray-100: #eeeeef;
+  --brand-gray-200: #e6e9ed;
+  --brand-gray-600: #7164c0;
+}
+
+html, body {
+  font-family: var(--font-sans);
+  background-color: #fafbfc;
+  color: #0f172a;
+  min-height: 100vh;
+}
+
+/* Enhanced Silent / Subtle Deep Black Dark Mode */
+.dark html, .dark body {
+  background-color: #040406;
+  color: #ededef;
+}
+
+/* Custom scrollbars for dark mode */
+.dark ::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+.dark ::-webkit-scrollbar-track {
+  background: #040406;
+}
+.dark ::-webkit-scrollbar-thumb {
+  background: #181924;
+  border-radius: 3px;
+}
+.dark ::-webkit-scrollbar-thumb:hover {
+  background: #232536;
+}
